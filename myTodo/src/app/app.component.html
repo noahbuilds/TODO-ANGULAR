@@ -12,7 +12,7 @@
       <br />
       <br />
       <br />
-      <input type="text" name="task" placeholder="Add a task" #task /> <br />
+      <input type="text"  onfocus="this.value=''" name="task" placeholder="Add a task" #task /> <br />
       <br />
       <input type="date" name="date" #date /> <br /><br />
       <button (click)="addTask(task.value, date.value)">Add task</button>
