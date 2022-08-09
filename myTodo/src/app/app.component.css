@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(90deg, #ec2c2c, #d29e62, #e9993d);
+  font-family: Poppins, sans-serif;
+
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  width: 70%;
+  max-width: 600px;
+  padding: 60px 0;
+  color: white;
+}
+.list {
+  color: white;
+}
+button {
+  padding: 15px 30px;
+  font-size: 1.04rem;
+  color: white;
+  margin: 0 -3px;
+  background-color: black;
+  border-radius: 15px;
+}
+.edit-btn{
+  padding: 3px 5px;
+  font-size: 1.04rem;
+  color: white;
+  margin: 0 -3px;
+  background-color: #ec2c2c;
+  outline-color: #ffffff;
+
+
+}
+input {
+  border: none;
+}
+
+input[type="text"],
+[type="date"] {
+  width: 70%;
+  padding: 5px 10px;
+  outline: none;
+  font-size: 1.2rem;
+  margin-right: -4px;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+  .task {
+    display: inline;
+  }
+  .flex-button {
+    display: block;
+
+    width: 100%;
+  }
+}
